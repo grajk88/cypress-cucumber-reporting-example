@@ -2,9 +2,7 @@
 
 This repository contains sample tests for Cucumber with Cypress.io Integration and reporting
 
-## Article can be found in - 
-
-Points to note:
+## Points to note:
 
 1. Install Cucumber-HTML-Reporting package from npm
 
