@@ -1,0 +1,148 @@
+[
+  {
+    "description": "As a valid customer\nIn order to purchase items\nI want to login successfully to Swag Labs",
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "line": 1,
+    "id": "login-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-feature;login-validation",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login Validation",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I am in the Swag Labs login page",
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 2082000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 586000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;login-validation-and-logout",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Login Validation and Logout",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I am in the Swag Labs login page",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 780000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 490000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;login-validation---vaish",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Login Validation - Vaish",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I am in the Swag Labs login page",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I enter valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to login successfully",
+            "result": {
+              "status": "passed",
+              "duration": 475000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

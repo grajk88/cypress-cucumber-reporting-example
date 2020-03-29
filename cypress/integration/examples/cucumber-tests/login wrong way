@@ -1,0 +1,27 @@
+Feature: Login Feature Wrong way
+
+As a valid customer
+In order to purchase items
+I want to login successfully to Swag Labs
+
+Scenario: Login Validation
+
+Given I launch the url "https://www.saucedemo.com/"
+When I enter username in "username"
+When I enter password in "password"
+When I click on "Login" button
+Then I should be able to login successfully
+
+Scenario: Adding something to basket
+
+Given I launch the chrome browser
+And I enter the url in address bar "https://www.saucedemo.com/"
+And I type username in "username" field
+And I type password in "password" field
+When I click on "Login" button
+Then I see the page is navigated to "dashboard page"
+And I click on "saucelabs backpack" link
+And I click on the add button "data-type-button-add"
+And I click purchase link "data-type-link-purchase"
+When I click on logout button
+Then I logout successfully
