@@ -19,3 +19,10 @@ This repository contains sample tests for Cucumber with Cypress.io Integration a
    #### node index.js
    
 6. The test report will be generated under 'test/report/cucumber_report.html' folder
+
+## License
+
+This project is licensed under the MIT License - see [here](https://mit-license.org/) for details
+
+## Author
+Giridhar Rajkumar
